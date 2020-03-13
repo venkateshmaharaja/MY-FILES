@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>RMA login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/login.css" type="text/css">
+    </head>
+    <body><br><br>
+        <form action="login2" method="post">
+            <div class="form">
+                <div class="thumbnail" style="margin-left:20px; "><img src="image/logo.png" style=height:100px;width:225px; /></div>
+                <h1 style="color: whitesmoke;font-size: 30px; margin-top: -25px; background-color: #EF3B3A">RMA TRACKER</h1>
+                    <input type="text" placeholder="USERNAME" name="username"/>
+                    <input type="password" placeholder="PASSWORD" name="password"/>
+                    <button>LOGIN</button>
+
+            </div>
+            <center> <p style="color:whitesmoke; margin-top:-40px;">&copy; 2020 RMA TRACKER Designed by - Software Development Team. <br>Version 2.0</p></center>
+        </form> 
+    </body>
+</html>
+<<script>
+    $('.message a').click(function () {
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+</script>
+<style>
+    img{
+        margin-top:-50px; 
+        margin-left: -10px;
+    }
+</style>
